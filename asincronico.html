@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asincrónico</title>
+</head>
+
+<body>
+    <script>
+        //Ejercicio asincrónico 04//
+
+        //Parte 1: En este ejercicio, crearás un programa que le indique a las mujeres si están en edad, o no, de jubilarse//
+        //Parte 2: Modificarás tu programa para informar, tanto a las mujeres como a los hombres, si están en edad de jubilarse//
+
+        const sexo = prompt('Escribe si eres\n 1: Mujer\n 2: Hombre')
+        const edad= prompt('Indícanos tu edad')
+        
+        if (sexo == 'Mujer' && edad >= 60 || sexo =='Hombre' && edad >=65) {
+            alert('Ya te puedes jubilar');
+        }
+        else {
+            alert('Aún no puedes jubilar');
+        }
+    </script>
+</body>
+</html>
